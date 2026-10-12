@@ -1,22 +1,25 @@
 
-# Temporary files
-*.tmp
-*.log
-.DS_Store
-Thumbs.db
-
-# Environment variables and secrets
-.env
-.env.*
-!.env.example
-
-# Dependencies
-node_modules/
-
-# Python generated files
+# Python backend for club management
 __pycache__/
-*.pyc
+*.py[cod]      # Python compiled files
+*$py.class
+*.so
+.Python
+env/
+.env           # Where database passwords are stored
+venv/          # Virtual environment for testing
+.venv
 
-# Build output
-dist/
-build/
+# Teacher IDE settings
+.vscode/       # Ms. Rodriguez uses VS Code
+.idea/         # Mr. Chen uses PyCharm
+
+# Local development & testing
+instance/
+.pytest_cache/
+.coverage      # Test coverage reports
+htmlcov/
+
+# Staff computer files
+.DS_Store      # For teachers with Macs
+Thumbs.db      # For teachers with Windows
