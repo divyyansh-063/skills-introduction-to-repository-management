@@ -1,0 +1,22 @@
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Python generated files
+__pycache__/
+*.pyc
+
+# Build output
+dist/
+build/
